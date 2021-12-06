@@ -1,13 +1,28 @@
 /* eslint-disable camelcase */
 import React from 'react';
 import styled from 'styled-components';
-import Anchor from './commons/Anchor';
+
 import RepoDetail from './commons/RepoDetail';
 import RepoLogoSVG from './commons/svg/RepoLogoSVG';
 import RepoNotification from './commons/RepoNotification';
 import NavigationItem from './NavigationItem';
 
 
+
+const Anchor = styled.a`
+  color: ${props => props.color};
+  text-decoration: none;
+  font-size : 18px;
+  font-weight : ${props => (props.fontWeight
+    ? props.fontWeight : 'none')}
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:active {
+    color: purple; 
+  }
+`;
 
 const navigationValues = [
     {
@@ -44,7 +59,7 @@ border-bottom: 2px solid #e1e4e8;
 width: 100%;
 -webkit-transition: height 0.2s ease-in-out;
 transition: height 0.2s ease-in-out;
-height: 89px;
+height: 88px;
 margin: 0 auto;
 margin-bottom : 20px;
 @media (max-width: 820px) {
@@ -108,8 +123,7 @@ function Header() {
             <RepoDetail tag="Fork" value="35.3K" />
           </RightNav>
         </Navmenus>
-     
-    
+
       <Navmenus >
           {
             navigationValues.map(item => (

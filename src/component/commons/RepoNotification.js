@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import PropTypes from 'prop-types';
-import Detail from './Detail';
+
+
+
 const RepoDetailContainer = styled.div`
   display: inline-block;
   margin:5px;
@@ -38,7 +39,3 @@ const RepoNotification = ({ tag }) => (
 
 export default RepoNotification;
 
-Detail.propTypes = {
-  tag: PropTypes.string.isRequired,
-  value: PropTypes.string.isRequired,
-};

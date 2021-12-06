@@ -4,8 +4,19 @@ import PropTypes from 'prop-types';
 import WatchSVG from './svg/WatchSVG';
 import StarSVG from './svg/StarSVG';
 import ForkSVG from './svg/ForkSVG';
-import Caret from './Caret';
-import Detail from './Detail';
+
+const Caret = styled.span`
+    padding: 0px 5px;
+    
+    &:after {
+      border: 4px solid transparent;
+      border-top-color: currentcolor;
+      content: "";
+      display: inline-block;
+      height: 0;
+      vertical-align: -2px;
+      width: 0;
+ }`;
 
 const RepoDetailContainer = styled.div`
   display: inline-block;
@@ -56,7 +67,3 @@ const RepoDetail = ({ tag, value }) => (
 
 export default RepoDetail;
 
-Detail.propTypes = {
-  tag: PropTypes.string.isRequired,
-  value: PropTypes.string.isRequired,
-};
