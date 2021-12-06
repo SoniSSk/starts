@@ -2,7 +2,6 @@
 import React from 'react';
 import FooterBar from './FooterBar';
 
-import React from 'react'
 
 function Footer() {
     return (
