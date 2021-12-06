@@ -10,7 +10,7 @@ function App() {
       <Header/>
       <Issue/>
       <IssueContainer/>
-        <Footer/>
+      <Footer/>
     </div>
   );
 }
