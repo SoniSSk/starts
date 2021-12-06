@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import React from 'react';
-import { auto } from 'async';
+import IssueBox from './IssueBox';
 
 const Container = styled.div`
     
@@ -11,7 +11,7 @@ const Container = styled.div`
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    padding-top : 10px;
+   
     border-radius: 0 0 5px 5px ;
    
     position: relative;
@@ -30,52 +30,23 @@ const Container = styled.div`
 
 const IssueContainer = () => (
   <Container>
-    <div style={{ width:"100%", height:"100%",overflow:"scroll"}}><p>hjdbnadkbadkjn</p>
-   
-
-
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-
-    <p>hjdbnadkbadkjn</p>
-
-
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    
-    <p>hjdbnadkbadkjn</p>
-    
-    <p>hjdbnadkbadkjn</p>
-    
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
-    <p>hjdbnadkbadkjn</p>
+    <div style={{ width:"100%", height:"100%",overflow:"scroll"}}>
+   <IssueBox></IssueBox>
+   <IssueBox></IssueBox>
+   <IssueBox></IssueBox>
+   <IssueBox></IssueBox>
+   <IssueBox></IssueBox>
+   <IssueBox></IssueBox>
+   <IssueBox></IssueBox>
+   <IssueBox></IssueBox>
+   <IssueBox></IssueBox>
+   <IssueBox></IssueBox>
+   <IssueBox></IssueBox>
+   <IssueBox></IssueBox>
+   <IssueBox></IssueBox>
+   <IssueBox></IssueBox>
+   <IssueBox></IssueBox>
+  
     </div>
    
    

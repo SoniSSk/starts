@@ -6,7 +6,7 @@ import FooterBar from './FooterBar';
 function Footer() {
     return (
         <>
-        <p style={{ textAlign: 'center' }}><strong>ProTip</strong> What's not been update in a month:<span  style={{ color:"blue" }}>update:2021-08-17</span></p>
+        <p style={{ textAlign: 'center' }}><strong>ProTip</strong> What's not been update in a month:<span  style={{ color:"blue" }}>update:2020-12-07</span></p>
            <hr/>
           < FooterBar>  
           
@@ -16,7 +16,7 @@ function Footer() {
               <p style={{ width:"150px", padding:"20px" }}>Security</p>
               <p style={{ width:"150px", padding:"20px" }}>Status</p>
               <p style={{ width:"150px", padding:"20px" }}>Docs</p>
-              <img style={{ paddingTop:"20px"  }} src= "https://avatars.githubusercontent.com/u/9919?s=280&v=4" width="50" height="50" alt="Github Logo"/>
+              <img style={{ paddingTop:"20px"  }} src= "https://avatars.githubusercontent.com/u/9919?s=280&v=4" width="40" height="40" alt="Github Logo"/>
               <p style={{ width:"150px", padding:"20px" }}>Contact</p>
               <p style={{ width:"150px", padding:"20px" }}>Pricing</p>
               <p style={{ width:"150px", padding:"20px" }}>Traning</p>
