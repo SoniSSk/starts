@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import React from 'react';
-import { auto } from 'async';
 
 const Container = styled.div`
     
