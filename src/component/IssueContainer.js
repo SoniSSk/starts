@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 import React from 'react';
-import IssueBox from './IssueBox';
+
 import IssueOpenedSVG from './commons/svg/IssueOpenedSVG';
-import { useState } from 'react';
+
 
 const Container = styled.div`
     
