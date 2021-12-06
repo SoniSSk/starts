@@ -1,6 +1,5 @@
 /* eslint-disable camelcase */
 import React from 'react';
-import HeaderBar from './HeaderBar';
 import styled from 'styled-components';
 import Anchor from './commons/Anchor';
 import RepoDetail from './commons/RepoDetail';
